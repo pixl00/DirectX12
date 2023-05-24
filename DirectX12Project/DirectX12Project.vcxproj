@@ -16,6 +16,7 @@
     <ProjectGuid>{91d73e40-4eb9-4304-a4d6-30d105820db9}</ProjectGuid>
     <RootNamespace>DirectX12Project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DirectX12Project</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -61,6 +62,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Project\Source;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source;$(SolutionDir)\DirectX12Project\Source;$(SolutionDir)\DirectX12Engine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -79,6 +81,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Project\Source;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source;$(SolutionDir)\DirectX12Project\Source;$(SolutionDir)\DirectX12Engine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -88,18 +91,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Source\pch.cpp" />
-    <ClCompile Include="..\Source\WinMain.cpp" />
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\pch.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Source\pch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\Application.h" />
+    <ClInclude Include="Source\pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DirectX12Project.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Content\Icons\DX12_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirectX12Engine\DirectX12Engine.vcxproj">
+      <Project>{08797fdb-a8e0-4cf7-8951-22485e5f5595}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

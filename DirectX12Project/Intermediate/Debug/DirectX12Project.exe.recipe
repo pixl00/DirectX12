@@ -2,7 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Dennis\Documents\Code Projects\DirectX12\DirectX12\Build\DirectX12Project\Debug\DirectX12Project.exe</FullPath>
+      <FullPath>C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Debug\DirectX12Engine.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Project\Debug\DirectX12Project.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
