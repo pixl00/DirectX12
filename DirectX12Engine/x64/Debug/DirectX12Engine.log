@@ -1,0 +1,5 @@
+﻿  Engine.cpp
+  pch.cpp
+  WinMain.cpp
+Engine.obj : error LNK2019: unresolved external symbol D3D12GetDebugInterface referenced in function "void __cdecl EnableDebugLayer(void)" (?EnableDebugLayer@@YAXXZ)
+C:\Users\Dennis\Documents\GitHub\DirectX12\x64\Debug\DirectX12Engine.exe : fatal error LNK1120: 1 unresolved externals
