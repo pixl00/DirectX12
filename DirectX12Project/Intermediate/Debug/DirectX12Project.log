@@ -1,5 +1,0 @@
-﻿  Application.cpp
-  WinMain.cpp
-  pch.cpp
-Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl Logger::PrintLog(void)" (__imp_?PrintLog@Logger@@QEAAXXZ) referenced in function "public: virtual void __cdecl Application::Initialize(void)" (?Initialize@Application@@UEAAXXZ)
-C:\Users\dennlov\Documents\Git\DirectX12\\Build\DirectX12Project\Debug\DirectX12Project.exe : fatal error LNK1120: 1 unresolved externals
