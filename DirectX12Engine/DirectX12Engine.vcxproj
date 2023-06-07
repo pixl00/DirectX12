@@ -46,6 +46,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)\Build\$(ProjectName)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)\$(ProjectName)\Intermediate\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)\$(ProjectName)\Source\DirectXExtention;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\Build\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\$(ProjectName)\Intermediate\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(SolutionDir)\$(ProjectName)\Source\DirectXExtention;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -53,9 +61,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Dennis\Documents\Code Projects\DX12\DirectX12\DirectX12Engine\Source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\$(ProjectName)\Source</AdditionalIncludeDirectories>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -72,7 +82,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\Dennis\Documents\Code Projects\DX12\DirectX12\DirectX12Engine\Source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\$(ProjectName)\Source</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -86,7 +96,7 @@
   <ItemGroup>
     <ClCompile Include="Source\Engine.cpp" />
     <ClCompile Include="Source\pch.cpp" />
-    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Engine.h" />

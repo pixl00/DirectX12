@@ -1,5 +1,7 @@
 #pragma once
-
+#include <d3dx12.h>
+#pragma comment(lib, "d3d12.lib")
+#pragma comment(lib, "dxgi.lib")
 #include "Engine.h"
 
 // Minimizes the amount of includes in Windows.h
