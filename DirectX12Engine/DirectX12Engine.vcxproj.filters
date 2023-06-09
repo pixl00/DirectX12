@@ -25,6 +25,24 @@
     <ClCompile Include="Source\Engine.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Source\CommandQueue.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tutorial2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectXExtentions\Application.cpp">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectXExtentions\HighResolutionClock.cpp">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectXExtentions\Window.cpp">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\pch.h">
@@ -33,5 +51,34 @@
     <ClInclude Include="Source\Engine.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="Source\CommandQueue.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tutorial2.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectXExtentions\Application.h">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectXExtentions\HighResolutionClock.h">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectXExtentions\Window.h">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source\DirectXExtention</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\DefaultVertex.hlsl">
+      <Filter>Resources</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\DefaultPixel.hlsl">
+      <Filter>Resources</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>

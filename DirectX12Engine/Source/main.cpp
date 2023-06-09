@@ -1,5 +1,7 @@
 #include "pch.h"
-#pragma region Globals
+#include <dxgidebug.h>
+#include <Shlwapi.h>
+/*#pragma region Globals
 #pragma region Settings
 
 // Number of swap chain back buffers
@@ -29,7 +31,7 @@ RECT WindowRect;
 // DirectX 12 Objects
 COMPTR<ID3D12Device2> Device;
 COMPTR<ID3D12CommandQueue> CommandQueue;
-COMPTR<IDXGISwapChain4> SwapChain;
+
 COMPTR<ID3D12Resource> BackBuffers[NumFrames];
 COMPTR<ID3D12GraphicsCommandList> CommandList;
 COMPTR<ID3D12CommandAllocator> CommandAllocators[NumFrames];
@@ -66,12 +68,6 @@ void ParseCommandLineArguments()
 
     // Free memory allocated by CommandLineToArgvW
     ::LocalFree( argv );
-}
-
-inline void ThrowIfFailed( HRESULT hr )
-{
-    if( FAILED( hr ) )
-        throw std::exception();
 }
 
 void EnableDebugLayer()
@@ -375,13 +371,13 @@ COMPTR<ID3D12Fence> CreateFence( COMPTR<ID3D12Device2> device )
     return fence;
 }
 
-uint64_t Signal( COMPTR<ID3D12CommandQueue> commandQueue, COMPTR<ID3D12Fence> fence, uint64_t& fenceValue )
-{
-    uint64_t fenceValueForSignal = ++fenceValue;
-    ThrowIfFailed( commandQueue->Signal( fence.Get(), fenceValueForSignal ) );
-
-    return fenceValueForSignal;
-}
+//uint64_t Signal( COMPTR<ID3D12CommandQueue> commandQueue, COMPTR<ID3D12Fence> fence, uint64_t& fenceValue )
+//{
+//    uint64_t fenceValueForSignal = ++fenceValue;
+//    ThrowIfFailed( commandQueue->Signal( fence.Get(), fenceValueForSignal ) );
+//
+//    return fenceValueForSignal;
+//}
 
 HANDLE CreateEventHandle()
 {
@@ -393,22 +389,22 @@ HANDLE CreateEventHandle()
     return fenceEvent;
 }
 
-void WaitForFenceValue( COMPTR<ID3D12Fence> fence, uint64_t fenceValue, HANDLE fenceEvent,
-                        std::chrono::milliseconds duration = std::chrono::milliseconds::max() )
-{
-    if( fence->GetCompletedValue() < fenceValue )
-    {
-        ThrowIfFailed( fence->SetEventOnCompletion( fenceValue, fenceEvent ) );
-        ::WaitForSingleObject( fenceEvent, static_cast<DWORD>(duration.count()) );
-    }
-}
+//void WaitForFenceValue( COMPTR<ID3D12Fence> fence, uint64_t fenceValue, HANDLE fenceEvent,
+//                        std::chrono::milliseconds duration = std::chrono::milliseconds::max() )
+//{
+//    if( fence->GetCompletedValue() < fenceValue )
+//    {
+//        ThrowIfFailed( fence->SetEventOnCompletion( fenceValue, fenceEvent ) );
+//        ::WaitForSingleObject( fenceEvent, static_cast<DWORD>(duration.count()) );
+//    }
+//}
 
-void Flush( COMPTR<ID3D12CommandQueue> commandQueue, COMPTR<ID3D12Fence> fence,
-            uint64_t& fenceValue, HANDLE fenceEvent )
-{
-    uint64_t fenceValueForSignal = Signal( commandQueue, fence, fenceValue );
-    WaitForFenceValue( fence, fenceValueForSignal, fenceEvent );
-}
+//void Flush( COMPTR<ID3D12CommandQueue> commandQueue, COMPTR<ID3D12Fence> fence,
+//            uint64_t& fenceValue, HANDLE fenceEvent )
+//{
+//    uint64_t fenceValueForSignal = Signal( commandQueue, fence, fenceValue );
+//    WaitForFenceValue( fence, fenceValueForSignal, fenceEvent );
+//}
 
 void Update()
 {
@@ -475,11 +471,11 @@ void Render()
         UINT presentFlags = TearingSupported && !VSync?DXGI_PRESENT_ALLOW_TEARING:0;
         ThrowIfFailed( SwapChain->Present( syncInterval, presentFlags ) );
 
-        FrameFenceValues[CurrentBackBufferIndex] = Signal( CommandQueue, Fence, FenceValue );
+       // FrameFenceValues[CurrentBackBufferIndex] = Signal( CommandQueue, Fence, FenceValue );
 
         CurrentBackBufferIndex = SwapChain->GetCurrentBackBufferIndex();
 
-        WaitForFenceValue( Fence, FrameFenceValues[CurrentBackBufferIndex], FenceEvent );
+       // WaitForFenceValue( Fence, FrameFenceValues[CurrentBackBufferIndex], FenceEvent );
     }
 }
 
@@ -493,7 +489,7 @@ void Resize( uint32_t width, uint32_t height )
 
         // Flush the GPU queue to make sure the swap chain's back buffers
         // are not being referenced by an in-flight command list.
-        Flush( CommandQueue, Fence, FenceValue, FenceEvent );
+        //Flush( CommandQueue, Fence, FenceValue, FenceEvent );
 
         for( int i = 0; i < NumFrames; ++i )
         {
@@ -637,78 +633,106 @@ LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam 
 
 #pragma endregion Functions
 
-#pragma endregion Globals
+#pragma endregion Globals*/
+void ReportLiveObjects()
+{
+    IDXGIDebug1* dxgiDebug;
+    DXGIGetDebugInterface1( 0, IID_PPV_ARGS( &dxgiDebug ) );
 
+    dxgiDebug->ReportLiveObjects( DXGI_DEBUG_ALL, DXGI_DEBUG_RLO_IGNORE_INTERNAL );
+    dxgiDebug->Release();
+}
 int CALLBACK wWinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR lpCmdLine, int nCmdShow )
 {
-// Windows 10 Creators update adds Per Monitor V2 DPI awareness context.
-// Using this awareness context allows the client area of the window 
-// to achieve 100% scaling while still allowing non-client window content to 
-// be rendered in a DPI sensitive fashion.
-    ClientWidth = 200;
-    ClientHeight = 150;
-    SetThreadDpiAwarenessContext( DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 );
+//// Windows 10 Creators update adds Per Monitor V2 DPI awareness context.
+//// Using this awareness context allows the client area of the window 
+//// to achieve 100% scaling while still allowing non-client window content to 
+//// be rendered in a DPI sensitive fashion.
+//    ClientWidth = 200;
+//    ClientHeight = 150;
+//    SetThreadDpiAwarenessContext( DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 );
+//
+//    // Window class name. Used for registering / creating the window.
+//    const wchar_t* windowClassName = L"DX12WindowClass";
+//    ParseCommandLineArguments();
+//
+//    EnableDebugLayer();
+//
+//    TearingSupported = CheckTearingSupport();
+//
+//    RegisterWindowClass( hInstance, windowClassName );
+//    HWnd = CreateWindow( windowClassName, hInstance, L"Learning DirectX 12",
+//                           ClientWidth, ClientHeight );
+//
+//    // Initialize the global window rect variable.
+//    ::GetWindowRect( HWnd, &WindowRect );
+//
+//    COMPTR<IDXGIAdapter4> dxgiAdapter4 = GetAdapter( UseWarp );
+//
+//    Device = CreateDevice( dxgiAdapter4 );
+//
+//    CommandQueue = CreateCommandQueue( Device, D3D12_COMMAND_LIST_TYPE_DIRECT );
+//
+//    SwapChain = CreateSwapChain( HWnd, CommandQueue,
+//                                   ClientWidth, ClientHeight, NumFrames );
+//
+//    CurrentBackBufferIndex = SwapChain->GetCurrentBackBufferIndex();
+//
+//    RTVDescriptorHeap = CreateDescriptorHeap( Device, D3D12_DESCRIPTOR_HEAP_TYPE_RTV, NumFrames );
+//    RTVDescriptorSize = Device->GetDescriptorHandleIncrementSize( D3D12_DESCRIPTOR_HEAP_TYPE_RTV );
+//
+//    UpdateRenderTargetViews( Device, SwapChain, RTVDescriptorHeap );
+//
+//    for( int i = 0; i < NumFrames; ++i )
+//    {
+//        CommandAllocators[i] = CreateCommandAllocator( Device, D3D12_COMMAND_LIST_TYPE_DIRECT );
+//    }
+//    CommandList = CreateCommandList( Device,
+//                                       CommandAllocators[CurrentBackBufferIndex], D3D12_COMMAND_LIST_TYPE_DIRECT );
+//
+//    Fence = CreateFence( Device );
+//    FenceEvent = CreateEventHandle();
+//
+//    IsInitialized = true;
+//
+//    ::ShowWindow( HWnd, SW_SHOW );
+//
+//    MSG msg = {};
+//    while( msg.message != WM_QUIT )
+//    {
+//        if( ::PeekMessage( &msg, NULL, 0, 0, PM_REMOVE ) )
+//        {
+//            ::TranslateMessage( &msg );
+//            ::DispatchMessage( &msg );
+//        }
+//    }
+//
+//    // Make sure the command queue has finished all commands before closing.
+//    Flush( CommandQueue, Fence, FenceValue, FenceEvent );
+//
+//    ::CloseHandle( FenceEvent );
+//
+//    return 0;
+    int retCode = 0;
 
-    // Window class name. Used for registering / creating the window.
-    const wchar_t* windowClassName = L"DX12WindowClass";
-    ParseCommandLineArguments();
-
-    EnableDebugLayer();
-
-    TearingSupported = CheckTearingSupport();
-
-    RegisterWindowClass( hInstance, windowClassName );
-    HWnd = CreateWindow( windowClassName, hInstance, L"Learning DirectX 12",
-                           ClientWidth, ClientHeight );
-
-    // Initialize the global window rect variable.
-    ::GetWindowRect( HWnd, &WindowRect );
-
-    COMPTR<IDXGIAdapter4> dxgiAdapter4 = GetAdapter( UseWarp );
-
-    Device = CreateDevice( dxgiAdapter4 );
-
-    CommandQueue = CreateCommandQueue( Device, D3D12_COMMAND_LIST_TYPE_DIRECT );
-
-    SwapChain = CreateSwapChain( HWnd, CommandQueue,
-                                   ClientWidth, ClientHeight, NumFrames );
-
-    CurrentBackBufferIndex = SwapChain->GetCurrentBackBufferIndex();
-
-    RTVDescriptorHeap = CreateDescriptorHeap( Device, D3D12_DESCRIPTOR_HEAP_TYPE_RTV, NumFrames );
-    RTVDescriptorSize = Device->GetDescriptorHandleIncrementSize( D3D12_DESCRIPTOR_HEAP_TYPE_RTV );
-
-    UpdateRenderTargetViews( Device, SwapChain, RTVDescriptorHeap );
-
-    for( int i = 0; i < NumFrames; ++i )
+    // Set the working directory to the path of the executable.
+    WCHAR path[MAX_PATH];
+    HMODULE hModule = GetModuleHandleW( NULL );
+    if( GetModuleFileNameW( hModule, path, MAX_PATH ) > 0 )
     {
-        CommandAllocators[i] = CreateCommandAllocator( Device, D3D12_COMMAND_LIST_TYPE_DIRECT );
+        PathRemoveFileSpecW( path );
+        SetCurrentDirectoryW( path );
     }
-    CommandList = CreateCommandList( Device,
-                                       CommandAllocators[CurrentBackBufferIndex], D3D12_COMMAND_LIST_TYPE_DIRECT );
-
-    Fence = CreateFence( Device );
-    FenceEvent = CreateEventHandle();
-
-    IsInitialized = true;
-
-    ::ShowWindow( HWnd, SW_SHOW );
-
-    MSG msg = {};
-    while( msg.message != WM_QUIT )
+    
+    Application::Create( hInstance );
     {
-        if( ::PeekMessage( &msg, NULL, 0, 0, PM_REMOVE ) )
-        {
-            ::TranslateMessage( &msg );
-            ::DispatchMessage( &msg );
-        }
+        std::shared_ptr<Tutorial2> demo = std::make_shared<Tutorial2>( L"Learning DirectX 12 - Lesson 2", 1280, 720 );
+    	retCode = Application::Get().Run( demo );
     }
+    Application::Destroy();
 
-    // Make sure the command queue has finished all commands before closing.
-    Flush( CommandQueue, Fence, FenceValue, FenceEvent );
+    atexit( &ReportLiveObjects );
 
-    ::CloseHandle( FenceEvent );
-
-    return 0;
+    return retCode;
 }
 

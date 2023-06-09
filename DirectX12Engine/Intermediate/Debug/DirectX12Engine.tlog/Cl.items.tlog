@@ -1,3 +1,9 @@
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Engine.cpp;C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Intermediate\Debug\Engine.obj
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\pch.cpp;C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Intermediate\Debug\pch.obj
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\main.cpp;C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Intermediate\Debug\main.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\CommandQueue.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\CommandQueue.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\DirectXExtentions\Application.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\Application.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\DirectXExtentions\HighResolutionClock.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\HighResolutionClock.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\DirectXExtentions\Window.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\Window.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\Engine.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\Engine.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\Game.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\Game.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\pch.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\pch.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\main.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\main.obj
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Source\Tutorial2.cpp;C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Intermediate\Debug\Tutorial2.obj
