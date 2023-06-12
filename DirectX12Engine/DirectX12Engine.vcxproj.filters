@@ -43,6 +43,7 @@
     <ClCompile Include="Source\DirectXExtentions\Window.cpp">
       <Filter>Source\DirectXExtention</Filter>
     </ClCompile>
+    <ClCompile Include="Source\UploadBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\pch.h">
@@ -72,13 +73,20 @@
     <ClInclude Include="resource.h">
       <Filter>Source\DirectXExtention</Filter>
     </ClInclude>
+    <ClInclude Include="Source\UploadBuffer.h" />
+    <ClInclude Include="Source\Definitions.h">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="Resources\DefaultVertex.hlsl">
+    <FxCompile Include="Resources\Shaders\DefaultPixel.hlsl">
       <Filter>Resources</Filter>
     </FxCompile>
-    <FxCompile Include="Resources\DefaultPixel.hlsl">
+    <FxCompile Include="Resources\Shaders\DefaultVertex.hlsl">
       <Filter>Resources</Filter>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

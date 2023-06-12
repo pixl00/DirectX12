@@ -1,0 +1,14 @@
+﻿  CommandQueue.cpp
+  Application.cpp
+  HighResolutionClock.cpp
+  Window.cpp
+  Engine.cpp
+  Game.cpp
+  pch.cpp
+  main.cpp
+  Tutorial2.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1046 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DirectX12Engine.vcxproj -> C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Release\DirectX12Engine.exe

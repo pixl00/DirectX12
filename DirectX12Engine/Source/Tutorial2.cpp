@@ -56,45 +56,35 @@ void Tutorial2::UpdateBufferResource(
     auto device = Application::Get().GetDevice();
 
     size_t bufferSize = numElements * elementSize;
-    CD3DX12_HEAP_PROPERTIES heapProperties = CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_DEFAULT );
-    D3D12_RESOURCE_DESC resourceDesc = CD3DX12_RESOURCE_DESC::Buffer( bufferSize, flags );
+    CD3DX12_HEAP_PROPERTIES heapProperties0 = CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_DEFAULT );
+    D3D12_RESOURCE_DESC resourceDesc0 = CD3DX12_RESOURCE_DESC::Buffer( bufferSize, flags );
     // Create a committed resource for the GPU resource in a default heap.
     ThrowIfFailed( device->CreateCommittedResource(
-        &heapProperties,
+        &heapProperties0,
         D3D12_HEAP_FLAG_NONE,
-        &resourceDesc,
+        &resourceDesc0,
         D3D12_RESOURCE_STATE_COPY_DEST,
         nullptr,
         IID_PPV_ARGS( pDestinationResource ) ) );
 
-    //HRESULT CreateCommittedResource(
-    //    [in]            const D3D12_HEAP_PROPERTIES * pHeapProperties,
-    //    D3D12_HEAP_FLAGS      HeapFlags,
-    //    [in]            const D3D12_RESOURCE_DESC * pDesc,
-    //    D3D12_RESOURCE_STATES InitialResourceState,
-    //    [in, optional]  const D3D12_CLEAR_VALUE * pOptimizedClearValue,
-    //    REFIID                riidResource,
-    //    [out, optional]       void** ppvResource
-    //);
-
     // Create an committed resource for the upload.
     if( bufferData )
     {
-        CD3DX12_HEAP_PROPERTIES heapProperties = CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_DEFAULT );
-        D3D12_RESOURCE_DESC resourceDesc = CD3DX12_RESOURCE_DESC::Buffer( bufferSize, flags );
+        auto heapProperties1 = CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_UPLOAD );
+        auto resourceDesc1 = CD3DX12_RESOURCE_DESC::Buffer( bufferSize, flags );
         ThrowIfFailed( device->CreateCommittedResource(
-            &heapProperties,
+			&heapProperties1,
             D3D12_HEAP_FLAG_NONE,
-            &resourceDesc,
+            &resourceDesc1,
             D3D12_RESOURCE_STATE_GENERIC_READ,
             nullptr,
             IID_PPV_ARGS( pIntermediateResource ) ) );
-
+        
         D3D12_SUBRESOURCE_DATA subresourceData = {};
         subresourceData.pData = bufferData;
         subresourceData.RowPitch = bufferSize;
         subresourceData.SlicePitch = subresourceData.RowPitch;
-
+     
         UpdateSubresources( commandList.Get(),
             *pDestinationResource, *pIntermediateResource,
             0, 0, 1, &subresourceData );
@@ -134,6 +124,7 @@ bool Tutorial2::LoadContent()
     dsvHeapDesc.NumDescriptors = 1;
     dsvHeapDesc.Type = D3D12_DESCRIPTOR_HEAP_TYPE_DSV;
     dsvHeapDesc.Flags = D3D12_DESCRIPTOR_HEAP_FLAG_NONE;
+    
     ThrowIfFailed( device->CreateDescriptorHeap( &dsvHeapDesc, IID_PPV_ARGS( &m_DSVHeap ) ) );
 
     // Load the vertex shader.
@@ -244,7 +235,8 @@ void Tutorial2::ResizeDepthBuffer( int width, int height )
         optimizedClearValue.DepthStencil = { 1.0f, 0 };
         CD3DX12_HEAP_PROPERTIES heapProperties = CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_DEFAULT );
         CD3DX12_RESOURCE_DESC resourceDesc = CD3DX12_RESOURCE_DESC::Tex2D( DXGI_FORMAT_D32_FLOAT, width, height, 1, 0, 1, 0, D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL );
-        ThrowIfFailed( device->CreateCommittedResource(
+
+    	ThrowIfFailed( device->CreateCommittedResource(
             &heapProperties,
             D3D12_HEAP_FLAG_NONE,
             &resourceDesc,

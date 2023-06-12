@@ -1,3 +1,11 @@
-﻿  
-  The system cannot find the file specified. Resources\DefaultPixel.hlsl
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1822,5): error MSB6006: "dxc.exe" exited with code 1.
+﻿  CommandQueue.cpp
+  Application.cpp
+  HighResolutionClock.cpp
+  Window.cpp
+  Engine.cpp
+  Game.cpp
+  pch.cpp
+  main.cpp
+  Tutorial2.cpp
+  UploadBuffer.cpp
+  DirectX12Engine.vcxproj -> C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Debug\DirectX12Engine.exe

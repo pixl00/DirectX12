@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Release\DirectX12Engine.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Release\DefaultPixel.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Release\DefaultVertex.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
