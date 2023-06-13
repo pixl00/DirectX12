@@ -1,11 +1,97 @@
-﻿  CommandQueue.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Application.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\Application.cpp, Source\DirectXExtentions\Application.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of HighResolutionClock.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\HighResolutionClock.cpp, Source\DirectXExtentions\HighResolutionClock.cpp, Source\HighResolutionClock.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of RootSignature.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\RootSignature.cpp, Source\RootSignature.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of UploadBuffer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\UploadBuffer.cpp, Source\UploadBuffer.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Window.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\Window.cpp, Source\DirectXExtentions\Window.cpp.
+  Adapter.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
   Application.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Buffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  ByteAddressBuffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  ConstantBuffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  ConstantBufferView.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Device.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  GenerateMipsPSO.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  GUI.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
   HighResolutionClock.cpp
-  Window.cpp
-  Engine.cpp
-  Game.cpp
-  pch.cpp
-  main.cpp
-  Tutorial2.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  IndexBuffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Material.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Mesh.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  PanoToCubemapPSO.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  PipelineStateObject.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  RenderTarget.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Resource.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  ResourceStateTracker.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  RootSignature.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Scene.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  SceneNode.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  ShaderResourceView.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  StructuredBuffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  SwapChain.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Texture.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  UnorderedAccessView.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
   UploadBuffer.cpp
-  DirectX12Engine.vcxproj -> C:\Users\dennlov\Documents\Git\DirectX12\Build\DirectX12Engine\Debug\DirectX12Engine.exe
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  VertexBuffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  VertexTypes.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Window.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  CommandList.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  CommandQueue.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  DescriptorAllocator.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  DescriptorAllocatorPage.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Application.cpp
+c1xx : fatal  error C1083: Cannot open source file: 'Source\DirectXExtentions\Application.cpp': No such file or directory
+  HighResolutionClock.cpp
+c1xx : fatal  error C1083: Cannot open source file: 'Source\DirectXExtentions\HighResolutionClock.cpp': No such file or directory
+  Window.cpp
+c1xx : fatal  error C1083: Cannot open source file: 'Source\DirectXExtentions\Window.cpp': No such file or directory
+  DynamicDescriptorHeap.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Engine.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  Game.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  HighResolutionClock.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  pch.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  main.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  RootSignature.cpp
+c1xx : fatal  error C1083: Cannot open source file: 'Source\RootSignature.cpp': No such file or directory
+  Tutorial2.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory
+  UploadBuffer.cpp
+C:\Users\dennlov\Documents\Git\DirectX12\DirectX12Engine\Libraries\LibHeaders\assimp\anim.h(53,10): fatal  error C1083: Cannot open include file: 'assimp/types.h': No such file or directory

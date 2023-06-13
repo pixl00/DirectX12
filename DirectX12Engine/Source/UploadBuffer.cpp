@@ -70,11 +70,12 @@ UploadBuffer::Page::Page( size_t sizeInBytes )
 , m_GPUPtr( D3D12_GPU_VIRTUAL_ADDRESS( 0 ) )
 {
     auto device = Application::Get().GetDevice();
-
-    ThrowIfFailed( device->CreateCommittedResource(
-        &CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_UPLOAD ),
+    CD3DX12_HEAP_PROPERTIES heapProperties = CD3DX12_HEAP_PROPERTIES( D3D12_HEAP_TYPE_UPLOAD );
+    CD3DX12_RESOURCE_DESC resourceDesc = CD3DX12_RESOURCE_DESC::Buffer( m_PageSize );
+        ThrowIfFailed( device->CreateCommittedResource( 
+        &heapProperties,
         D3D12_HEAP_FLAG_NONE,
-        &CD3DX12_RESOURCE_DESC::Buffer( m_PageSize ),
+        &resourceDesc,
         D3D12_RESOURCE_STATE_GENERIC_READ,
         nullptr,
         IID_PPV_ARGS( &m_d3d12Resource )
@@ -93,8 +94,39 @@ UploadBuffer::Page::~Page()
 
 bool UploadBuffer::Page::HasSpace( size_t sizeInBytes, size_t alignment ) const
 {
-    size_t alignedSize = Math::AlignUp( sizeInBytes, alignment );
-    size_t alignedOffset = Math::AlignUp( m_Offset, alignment );
+    //size_t alignedSize = Math::AlignUp( sizeInBytes, alignment );
+    //size_t alignedOffset = Math::AlignUp( m_Offset, alignment );
 
+    size_t alignedSize = D3DX12Align( sizeInBytes, alignment );
+    size_t alignedOffset = D3DX12Align( m_Offset, alignment );
+    
+    
     return alignedOffset + alignedSize <= m_PageSize;
+}
+
+UploadBuffer::Allocation UploadBuffer::Page::Allocate( size_t sizeInBytes, size_t alignment )
+{
+    if( !HasSpace( sizeInBytes, alignment ) )
+    {
+        // Can't allocate space from page.
+        throw std::bad_alloc();
+    }
+
+    //size_t alignedSize = Math::AlignUp( sizeInBytes, alignment );
+    //m_Offset = Math::AlignUp( m_Offset, alignment );
+    size_t alignedSize = D3DX12Align( sizeInBytes, alignment );
+    m_Offset = D3DX12Align( m_Offset, alignment );
+
+    Allocation allocation;
+    allocation.CPU = static_cast<uint8_t*>(m_CPUPtr) + m_Offset;
+    allocation.GPU = m_GPUPtr + m_Offset;
+
+    m_Offset += alignedSize;
+
+    return allocation;
+}
+
+void UploadBuffer::Page::Reset()
+{
+    m_Offset = 0;
 }

@@ -1,4 +1,7 @@
 #include "pch.h"
+#include "Game.h"
+
+#include "Application.h"
 
 Game::Game( const std::wstring& name, int width, int height, bool vSync )
 : m_pWindow()

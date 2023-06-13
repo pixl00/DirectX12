@@ -20,12 +20,18 @@ extern "C"   {
 
 EXTERN_PROXY_FILE( d3d12 )
 EXTERN_PROXY_FILE( d3d12compatibility )
+EXTERN_PROXY_FILE( d3d12sdklayers )
+EXTERN_PROXY_FILE( d3d12video )
+EXTERN_PROXY_FILE( d3dcommon )
 
 
 PROXYFILE_LIST_START
 /* Start of list */
   REFERENCE_PROXY_FILE( d3d12 ),
   REFERENCE_PROXY_FILE( d3d12compatibility ),
+  REFERENCE_PROXY_FILE( d3d12sdklayers ),
+  REFERENCE_PROXY_FILE( d3d12video ),
+  REFERENCE_PROXY_FILE( d3dcommon ),
 /* End of list */
 PROXYFILE_LIST_END
 

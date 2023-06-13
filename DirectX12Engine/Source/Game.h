@@ -1,6 +1,6 @@
 #pragma once
 
-#include "DirectXExtentions/Events.h"
+#include "Events.h"
 
 #include <memory> // for std::enable_shared_from_this
 #include <string> // for std::wstring

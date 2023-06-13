@@ -1,4 +1,10 @@
 #include "pch.h"
+#include "Tutorial2.h"
+
+#include "CommandQueue.h"
+#include "Application.h"
+#include "DynamicDescriptorHeap.h"
+#include "Window.h"
 
 //using namespace Microsoft::WRL;
 
@@ -96,7 +102,7 @@ bool Tutorial2::LoadContent()
     auto device = Application::Get().GetDevice();
     auto commandQueue = Application::Get().GetCommandQueue( D3D12_COMMAND_LIST_TYPE_COPY );
     auto commandList = commandQueue->GetCommandList();
-
+    
     // Upload vertex buffer data.
     COMPTR<ID3D12Resource> intermediateVertexBuffer;
     UpdateBufferResource( commandList.Get(),

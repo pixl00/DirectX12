@@ -17,3 +17,16 @@
 #define _64MB _MB(64)
 #define _128MB _MB(128)
 #define _256MB _MB(256)
+
+// Should only use std::min/max
+#if defined(min)
+#undef min
+#endif
+#if defined(max)
+#undef max
+#endif
+
+// For defining a function called CreateWindow
+#if defined(CreateWindow)
+#undef CreateWindow
+#endif

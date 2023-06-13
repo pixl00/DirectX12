@@ -2,6 +2,9 @@
 #include <dxgidebug.h>
 #include <Shlwapi.h>
 
+#include "Application.h"
+#include "Tutorial2.h"
+
 void ReportLiveObjects()
 {
     IDXGIDebug1* dxgiDebug;

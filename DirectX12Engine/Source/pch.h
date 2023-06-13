@@ -1,6 +1,11 @@
 #pragma once
 #include <d3d12sdklayers.h>
-#include <d3dx12.h>
+#include "d3dx12.h"
+#include <DirectXMath.h>
+#include <DirectXTex.h>
+#include <d3dcompiler.h>
+#include <dxgi1_6.h>
+#include <dxgidebug.h>
 
 #pragma comment(lib, "d3d12.lib")
 #pragma comment(lib, "d3dcompiler.lib")
@@ -8,20 +13,24 @@
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "dxguid.lib")
 #pragma comment(lib, "shlwapi.lib")
+#pragma comment(lib, "DX12Libd.lib")
 
-extern "C" { inline __declspec(dllexport) extern const UINT D3D12SDKVersion = 610; }
+//extern "C" { inline __declspec(dllexport) extern const UINT D3D12SDKVersion = 610; }
 
-extern "C" { inline __declspec(dllexport) extern const char* D3D12SDKPath = ".\\D3D12\\"; }
+//extern "C" { inline __declspec(dllexport) extern const char* D3D12SDKPath = ".\\D3D12\\"; }
 
-#include "CommandQueue.h"
+//#include "CommandQueue.h"
 #include "Definitions.h"
-#include "Engine.h"
-#include "Game.h"
-#include "Tutorial2.h"
-#include "UploadBuffer.h"
+//#include "DescriptorAllocation.h"
+//#include "DescriptorAllocator.h"
+//#include "DescriptorAllocatorPage.h"
+//#include "Engine.h"
+//#include "Game.h"
+//#include "Tutorial2.h"
+//#include "UploadBuffer.h"
+//#include "CommandQueue.h"
 
-#include <Application.h>
-#include <CommandQueue.h>
+
 #include <d3dcompiler.h>
 #include <dxgidebug.h>
 #include <Helpers.h>
@@ -31,32 +40,34 @@ extern "C" { inline __declspec(dllexport) extern const char* D3D12SDKPath = ".\\
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 
-
-// Can interfer with std::min/max
-#if defined(min)
-#undef min
-#endif
-#if defined(max)
-#undef max
-#endif
-
-// For defining a function called CreateWindow
-#if defined(CreateWindow)
-#undef CreateWindow
-#endif
-
-// ComPtr
-#include <wrl.h>
-
-// DirectX 12 specific headers.
-#include <d3d12.h>
-#include <dxgi1_6.h>
-#include <d3dcompiler.h>
-#include <DirectXMath.h>
-
 // STL Headers
 #include <algorithm>
+#include <atomic>
 #include <cassert>
 #include <chrono>
+#include <condition_variable>
+#include <filesystem>
+#include <functional>
+#include <map>
+#include <memory>
+#include <mutex>
+#include <new>
+#include <sstream>
+#include <string>
+#include <thread>
+#include <unordered_map>
+#include <vector>
+
+//// Assimp header files.
+#include <assimp/anim.h>
+#include <assimp/Exporter.hpp>
+#include <assimp/Importer.hpp>
+#include <assimp/mesh.h>
+#include <assimp/ProgressHandler.hpp>
+#include <assimp/postprocess.h>
+#include <assimp/scene.h>
+
+// Helper functions
+#include <Helpers.h>
 
 inline COMPTR<IDXGISwapChain4> SwapChain;
