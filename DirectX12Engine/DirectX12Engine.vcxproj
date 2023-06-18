@@ -16,7 +16,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{0a2dfc68-f0ca-4366-9407-eb9ce92994ec}</ProjectGuid>
     <RootNamespace>DirectX12Engine</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -47,15 +47,15 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)\Build\$(ProjectName)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)\$(ProjectName)\Intermediate\$(Configuration)\</IntDir>
-    <ExternalIncludePath>$(SolutionDir)\$(ProjectName)\Source\DirectXExtentions;$(ExternalIncludePath)</ExternalIncludePath>
-    <IncludePath>$(SolutionDir)\$(ProjectName)\Source\DirectXExtentions;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ProjectDir)\Source\DirectXExtentions;$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(ProjectDir)\Source\DirectXExtentions;$(IncludePath)</IncludePath>
     <ReferencePath>$(ProjectDir)\Source\DirectXExtentions;$(ReferencePath)</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\Build\$(ProjectName)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)\$(ProjectName)\Intermediate\$(Configuration)\</IntDir>
-    <ExternalIncludePath>$(SolutionDir)\$(ProjectName)\Source\DirectXExtentions;$(ExternalIncludePath)</ExternalIncludePath>
-    <IncludePath>$(SolutionDir)\$(ProjectName)\Source\DirectXExtentions;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ProjectDir)\Source\DirectXExtentions;$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(ProjectDir)\Source\DirectXExtentions;$(IncludePath)</IncludePath>
     <ReferencePath>$(ProjectDir)\Source\DirectXExtentions;$(ReferencePath)</ReferencePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -64,16 +64,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)Source;$(ProjectDir)Libraries\LibHeaders</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source;$(ProjectDir)\Libraries;$(ProjectDir)\Libraries\LibHeaders;$(ProjectDir)\DirectXResources</AdditionalIncludeDirectories>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <LanguageStandard_C>Default</LanguageStandard_C>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(ProjectPath)\Libraries\DX12Libd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ProjectDir)\Libraries\assimp-vc143-mtd.lib;$(ProjectDir)\Libraries\d3d12.lib;$(ProjectDir)\Libraries\d3dcompiler.lib;$(ProjectDir)\Libraries\dxcompiler.lib;$(ProjectDir)\Libraries\dxgi.lib;$(ProjectDir)\Libraries\dxguid.lib;$(ProjectDir)\Libraries\ShLwApi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ProjectDir)\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <FxCompile>
@@ -84,6 +84,12 @@
       <Command>
       </Command>
     </PostBuildEvent>
+    <Midl>
+      <AdditionalIncludeDirectories>$(ProjectDir)/DirectXResources;$(SolutionDir)/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <AdditionalMetadataDirectories>
+      </AdditionalMetadataDirectories>
+    </Midl>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -95,16 +101,16 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Source;$(ProjectDir)Libraries\LibHeaders</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source;$(ProjectDir)\Libraries;$(ProjectDir)\Libraries\LibHeaders;$(ProjectDir)\DirectXResources</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <LanguageStandard_C>Default</LanguageStandard_C>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(ProjectPath)\Libraries\DX12Libd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ProjectDir)\Libraries\assimp-vc143-mtd.lib;$(ProjectDir)\Libraries\d3d12.lib;$(ProjectDir)\Libraries\d3dcompiler.lib;$(ProjectDir)\Libraries\dxcompiler.lib;$(ProjectDir)\Libraries\dxgi.lib;$(ProjectDir)\Libraries\dxguid.lib;$(ProjectDir)\Libraries\ShLwApi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ProjectDir)\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <FxCompile>
@@ -115,6 +121,10 @@
       <Command>
       </Command>
     </PostBuildEvent>
+    <Midl>
+      <AdditionalIncludeDirectories>$(ProjectDir)\DirectXResources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+    </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Libraries\LibHeaders\Adapter.cpp" />

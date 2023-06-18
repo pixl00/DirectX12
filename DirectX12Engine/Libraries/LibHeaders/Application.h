@@ -88,7 +88,7 @@ public:
      * - D3D12_COMMAND_LIST_TYPE_COMPUTE: Can be used for dispatch or copy commands.
      * - D3D12_COMMAND_LIST_TYPE_COPY   : Can be used for copy commands.
      */
-    std::shared_ptr<CommandQueue> GetCommandQueue( D3D12_COMMAND_LIST_TYPE type = D3D12_COMMAND_LIST_TYPE_DIRECT ) const;
+    std::shared_ptr<dx12lib::CommandQueue> GetCommandQueue( D3D12_COMMAND_LIST_TYPE type = D3D12_COMMAND_LIST_TYPE_DIRECT ) const;
 
     // Flush all command queues.
     void Flush();
@@ -117,9 +117,9 @@ private:
     Microsoft::WRL::ComPtr<IDXGIAdapter4> m_dxgiAdapter;
     Microsoft::WRL::ComPtr<ID3D12Device2> m_d3d12Device;
 
-    std::shared_ptr<CommandQueue> m_DirectCommandQueue;
-    std::shared_ptr<CommandQueue> m_ComputeCommandQueue;
-    std::shared_ptr<CommandQueue> m_CopyCommandQueue;
+    std::shared_ptr<dx12lib::CommandQueue> m_DirectCommandQueue;
+    std::shared_ptr<dx12lib::CommandQueue> m_ComputeCommandQueue;
+    std::shared_ptr<dx12lib::CommandQueue> m_CopyCommandQueue;
 
     bool m_TearingSupported;
 

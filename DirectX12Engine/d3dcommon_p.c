@@ -3,11 +3,11 @@
 /* this ALWAYS GENERATED file contains the proxy stub code */
 
 
- /* File created by MIDL compiler version 8.01.0628 */
+ /* File created by MIDL compiler version 8.01.0626 */
 /* at Tue Jan 19 04:14:07 2038
  */
 /* Compiler settings for Libraries\LibHeaders\d3dcommon.idl:
-    Oicf, W1, Zp8, env=Win64 (32b run), target_arch=AMD64 8.01.0628 
+    Oicf, W1, Zp8, env=Win64 (32b run), target_arch=AMD64 8.01.0626 
     protocol : all , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
@@ -71,46 +71,46 @@ typedef struct _d3dcommon_MIDL_EXPR_FORMAT_STRING
     } d3dcommon_MIDL_EXPR_FORMAT_STRING;
 
 
-static const RPC_SYNTAX_IDENTIFIER  _RpcTransferSyntax_2_0 = 
+static const RPC_SYNTAX_IDENTIFIER  _RpcTransferSyntax = 
 {{0x8A885D04,0x1CEB,0x11C9,{0x9F,0xE8,0x08,0x00,0x2B,0x10,0x48,0x60}},{2,0}};
 
-static const RPC_SYNTAX_IDENTIFIER  _NDR64_RpcTransferSyntax_1_0 = 
+static const RPC_SYNTAX_IDENTIFIER  _NDR64_RpcTransferSyntax = 
 {{0x71710533,0xbeba,0x4937,{0x83,0x19,0xb5,0xdb,0xef,0x9c,0xcc,0x36}},{1,0}};
 
 #if defined(_CONTROL_FLOW_GUARD_XFG)
 #define XFG_TRAMPOLINES(ObjectType)\
-NDR_SHAREABLE unsigned long ObjectType ## _UserSize_XFG(unsigned long * pFlags, unsigned long Offset, void * pObject)\
+static unsigned long ObjectType ## _UserSize_XFG(unsigned long * pFlags, unsigned long Offset, void * pObject)\
 {\
-return  ObjectType ## _UserSize(pFlags, Offset, (ObjectType *)pObject);\
+return  ObjectType ## _UserSize(pFlags, Offset, pObject);\
 }\
-NDR_SHAREABLE unsigned char * ObjectType ## _UserMarshal_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
+static unsigned char * ObjectType ## _UserMarshal_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
 {\
-return ObjectType ## _UserMarshal(pFlags, pBuffer, (ObjectType *)pObject);\
+return ObjectType ## _UserMarshal(pFlags, pBuffer, pObject);\
 }\
-NDR_SHAREABLE unsigned char * ObjectType ## _UserUnmarshal_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
+static unsigned char * ObjectType ## _UserUnmarshal_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
 {\
-return ObjectType ## _UserUnmarshal(pFlags, pBuffer, (ObjectType *)pObject);\
+return ObjectType ## _UserUnmarshal(pFlags, pBuffer, pObject);\
 }\
-NDR_SHAREABLE void ObjectType ## _UserFree_XFG(unsigned long * pFlags, void * pObject)\
+static void ObjectType ## _UserFree_XFG(unsigned long * pFlags, void * pObject)\
 {\
-ObjectType ## _UserFree(pFlags, (ObjectType *)pObject);\
+ObjectType ## _UserFree(pFlags, pObject);\
 }
 #define XFG_TRAMPOLINES64(ObjectType)\
-NDR_SHAREABLE unsigned long ObjectType ## _UserSize64_XFG(unsigned long * pFlags, unsigned long Offset, void * pObject)\
+static unsigned long ObjectType ## _UserSize64_XFG(unsigned long * pFlags, unsigned long Offset, void * pObject)\
 {\
-return  ObjectType ## _UserSize64(pFlags, Offset, (ObjectType *)pObject);\
+return  ObjectType ## _UserSize64(pFlags, Offset, pObject);\
 }\
-NDR_SHAREABLE unsigned char * ObjectType ## _UserMarshal64_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
+static unsigned char * ObjectType ## _UserMarshal64_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
 {\
-return ObjectType ## _UserMarshal64(pFlags, pBuffer, (ObjectType *)pObject);\
+return ObjectType ## _UserMarshal64(pFlags, pBuffer, pObject);\
 }\
-NDR_SHAREABLE unsigned char * ObjectType ## _UserUnmarshal64_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
+static unsigned char * ObjectType ## _UserUnmarshal64_XFG(unsigned long * pFlags, unsigned char * pBuffer, void * pObject)\
 {\
-return ObjectType ## _UserUnmarshal64(pFlags, pBuffer, (ObjectType *)pObject);\
+return ObjectType ## _UserUnmarshal64(pFlags, pBuffer, pObject);\
 }\
-NDR_SHAREABLE void ObjectType ## _UserFree64_XFG(unsigned long * pFlags, void * pObject)\
+static void ObjectType ## _UserFree64_XFG(unsigned long * pFlags, void * pObject)\
 {\
-ObjectType ## _UserFree64(pFlags, (ObjectType *)pObject);\
+ObjectType ## _UserFree64(pFlags, pObject);\
 }
 #define XFG_BIND_TRAMPOLINES(HandleType, ObjectType)\
 static void* ObjectType ## _bind_XFG(HandleType pObject)\
@@ -122,13 +122,11 @@ static void ObjectType ## _unbind_XFG(HandleType pObject, handle_t ServerHandle)
 ObjectType ## _unbind((ObjectType) pObject, ServerHandle);\
 }
 #define XFG_TRAMPOLINE_FPTR(Function) Function ## _XFG
-#define XFG_TRAMPOLINE_FPTR_DEPENDENT_SYMBOL(Symbol) Symbol ## _XFG
 #else
 #define XFG_TRAMPOLINES(ObjectType)
 #define XFG_TRAMPOLINES64(ObjectType)
 #define XFG_BIND_TRAMPOLINES(HandleType, ObjectType)
 #define XFG_TRAMPOLINE_FPTR(Function) Function
-#define XFG_TRAMPOLINE_FPTR_DEPENDENT_SYMBOL(Symbol) Symbol
 #endif
 
 
@@ -194,11 +192,11 @@ static const d3dcommon_MIDL_TYPE_FORMAT_STRING d3dcommon__MIDL_TypeFormatString 
 /* this ALWAYS GENERATED file contains the proxy stub code */
 
 
- /* File created by MIDL compiler version 8.01.0628 */
+ /* File created by MIDL compiler version 8.01.0626 */
 /* at Tue Jan 19 04:14:07 2038
  */
 /* Compiler settings for Libraries\LibHeaders\d3dcommon.idl:
-    Oicf, W1, Zp8, env=Win64 (32b run), target_arch=AMD64 8.01.0628 
+    Oicf, W1, Zp8, env=Win64 (32b run), target_arch=AMD64 8.01.0626 
     protocol : all , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
@@ -219,9 +217,6 @@ static const d3dcommon_MIDL_TYPE_FORMAT_STRING d3dcommon__MIDL_TypeFormatString 
 
 #include "ndr64types.h"
 #include "pshpack8.h"
-#ifdef __cplusplus
-namespace {
-#endif
 
 
 typedef 
@@ -231,9 +226,6 @@ extern const __midl_frag1_t __midl_frag1;
 
 static const __midl_frag1_t __midl_frag1 =
 (NDR64_UINT32) 0 /* 0x0 */;
-#ifdef __cplusplus
-}
-#endif
 
 
 #include "poppack.h"
@@ -263,9 +255,6 @@ static const __midl_frag1_t __midl_frag1 =
 /* Standard interface: __MIDL_itf_d3dcommon_0000_0002, ver. 0.0,
    GUID={0x00000000,0x0000,0x0000,{0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00}} */
 
-#ifdef __cplusplus
-namespace {
-#endif
 static const MIDL_STUB_DESC Object_StubDesc = 
     {
     0,
@@ -280,7 +269,7 @@ static const MIDL_STUB_DESC Object_StubDesc =
     1, /* -error bounds_check flag */
     0x60001, /* Ndr library version */
     0,
-    0x8010274, /* MIDL Version 8.1.628 */
+    0x8010272, /* MIDL Version 8.1.626 */
     0,
     0,
     0,  /* notify & notify_flag routine table */
@@ -289,9 +278,6 @@ static const MIDL_STUB_DESC Object_StubDesc =
     0,   /* proxy/server info */
     0
     };
-#ifdef __cplusplus
-}
-#endif
 
 const CInterfaceProxyVtbl * const _d3dcommon_ProxyVtblList[] = 
 {
@@ -318,7 +304,7 @@ int __stdcall _d3dcommon_IID_Lookup( const IID * pIID, int * pIndex )
     return 0;
 }
 
-EXTERN_C const ExtendedProxyFileInfo d3dcommon_ProxyFileInfo = 
+const ExtendedProxyFileInfo d3dcommon_ProxyFileInfo = 
 {
     (PCInterfaceProxyVtblList *) & _d3dcommon_ProxyVtblList,
     (PCInterfaceStubVtblList *) & _d3dcommon_StubVtblList,

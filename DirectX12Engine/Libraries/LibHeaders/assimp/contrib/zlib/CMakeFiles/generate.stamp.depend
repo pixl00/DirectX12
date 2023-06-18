@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/Dennis/Documents/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/Users/Dennis/Documents/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake
+C:/Users/Dennis/Documents/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/Users/Dennis/Documents/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake
+C:/Users/Dennis/Documents/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake
+C:/Users/Dennis/Documents/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Dennis/Documents/GitHub/assimp/contrib/zlib/CMakeLists.txt
+C:/Users/Dennis/Documents/GitHub/assimp/contrib/zlib/zconf.h.cmakein
+C:/Users/Dennis/Documents/GitHub/assimp/contrib/zlib/zlib.pc.cmakein

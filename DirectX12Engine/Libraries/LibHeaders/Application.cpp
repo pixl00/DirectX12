@@ -19,6 +19,7 @@ static WindowNameMap gs_WindowByName;
 
 static LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam );
 
+
 // A wrapper struct to allow shared pointers for the window class.
 struct MakeWindow : public Window
 {
@@ -71,9 +72,9 @@ Application::Application( HINSTANCE hInst )
     }
     if( m_d3d12Device )
     {
-        m_DirectCommandQueue = std::make_shared<CommandQueue>( m_d3d12Device, D3D12_COMMAND_LIST_TYPE_DIRECT );
-        m_ComputeCommandQueue = std::make_shared<CommandQueue>( m_d3d12Device, D3D12_COMMAND_LIST_TYPE_COMPUTE );
-        m_CopyCommandQueue = std::make_shared<CommandQueue>( m_d3d12Device, D3D12_COMMAND_LIST_TYPE_COPY );
+        m_DirectCommandQueue = std::make_shared<dx12lib::CommandQueue>( m_d3d12Device, D3D12_COMMAND_LIST_TYPE_DIRECT );
+        m_ComputeCommandQueue = std::make_shared<dx12lib::CommandQueue>( m_d3d12Device, D3D12_COMMAND_LIST_TYPE_COMPUTE );
+        m_CopyCommandQueue = std::make_shared<dx12lib::CommandQueue>( m_d3d12Device, D3D12_COMMAND_LIST_TYPE_COPY );
 
         m_TearingSupported = CheckTearingSupport();
     }
@@ -318,9 +319,9 @@ Microsoft::WRL::ComPtr<ID3D12Device2> Application::GetDevice() const
     return m_d3d12Device;
 }
 
-std::shared_ptr<CommandQueue> Application::GetCommandQueue( D3D12_COMMAND_LIST_TYPE type ) const
+std::shared_ptr<dx12lib::CommandQueue> Application::GetCommandQueue( D3D12_COMMAND_LIST_TYPE type ) const
 {
-    std::shared_ptr<CommandQueue> commandQueue;
+    std::shared_ptr<dx12lib::CommandQueue> commandQueue;
     switch( type )
     {
         case D3D12_COMMAND_LIST_TYPE_DIRECT:
