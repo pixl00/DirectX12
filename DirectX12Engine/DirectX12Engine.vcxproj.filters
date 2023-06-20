@@ -64,37 +64,6 @@
     <ClCompile Include="Source\UploadBuffer.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\LibHeaders\Adapter.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Application.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Buffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\ByteAddressBuffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\ConstantBuffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\ConstantBufferView.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Device.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\GenerateMipsPSO.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\GUI.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\HighResolutionClock.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\IndexBuffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Material.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Mesh.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\PanoToCubemapPSO.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\PipelineStateObject.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\RenderTarget.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Resource.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\ResourceStateTracker.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\RootSignature.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Scene.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\SceneNode.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\ShaderResourceView.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\StructuredBuffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\SwapChain.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Texture.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\UnorderedAccessView.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\UploadBuffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\VertexBuffer.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\VertexTypes.cpp" />
-    <ClCompile Include="Libraries\LibHeaders\Window.cpp" />
-    <ClCompile Include="Source\HighResolutionClock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\pch.h">
@@ -148,69 +117,6 @@
     <ClInclude Include="Source\UploadBuffer.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="Libraries\LibHeaders\Adapter.h" />
-    <ClInclude Include="Libraries\LibHeaders\Application.h" />
-    <ClInclude Include="Libraries\LibHeaders\Buffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\ByteAddressBuffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\ConstantBuffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\ConstantBufferView.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3d12.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3d12compatibility.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3d12sdklayers.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3d12shader.h" />
-    <ClInclude Include="Libraries\LibHeaders\D3D12TokenizedProgramFormat.hpp" />
-    <ClInclude Include="Libraries\LibHeaders\d3d12video.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dcommon.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_barriers.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_check_feature_support.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_core.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_default.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_pipeline_state_stream.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_property_format_table.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_render_pass.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_resource_helpers.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_root_signature.h" />
-    <ClInclude Include="Libraries\LibHeaders\d3dx12_state_object.h" />
-    <ClInclude Include="Libraries\LibHeaders\Defines.h" />
-    <ClInclude Include="Libraries\LibHeaders\Device.h" />
-    <ClInclude Include="Libraries\LibHeaders\DirectXTex.h" />
-    <ClInclude Include="Libraries\LibHeaders\dxcore.h" />
-    <ClInclude Include="Libraries\LibHeaders\dxcore_interface.h" />
-    <ClInclude Include="Libraries\LibHeaders\dxgicommon.h" />
-    <ClInclude Include="Libraries\LibHeaders\dxgiformat.h" />
-    <ClInclude Include="Libraries\LibHeaders\Events.h" />
-    <ClInclude Include="Libraries\LibHeaders\GenerateMipsPSO.h" />
-    <ClInclude Include="Libraries\LibHeaders\GUI.h" />
-    <ClInclude Include="Libraries\LibHeaders\Helpers.h" />
-    <ClInclude Include="Libraries\LibHeaders\HighResolutionClock.h" />
-    <ClInclude Include="Libraries\LibHeaders\IndexBuffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\KeyCodes.h" />
-    <ClInclude Include="Libraries\LibHeaders\Material.h" />
-    <ClInclude Include="Libraries\LibHeaders\Mesh.h" />
-    <ClInclude Include="Libraries\LibHeaders\PanoToCubemapPSO.h" />
-    <ClInclude Include="Libraries\LibHeaders\PipelineStateObject.h" />
-    <ClInclude Include="Libraries\LibHeaders\RenderTarget.h" />
-    <ClInclude Include="Libraries\LibHeaders\Resource.h" />
-    <ClInclude Include="Libraries\LibHeaders\ResourceStateTracker.h" />
-    <ClInclude Include="Libraries\LibHeaders\RootSignature.h" />
-    <ClInclude Include="Libraries\LibHeaders\Scene.h" />
-    <ClInclude Include="Libraries\LibHeaders\SceneNode.h" />
-    <ClInclude Include="Libraries\LibHeaders\ShaderResourceView.h" />
-    <ClInclude Include="Libraries\LibHeaders\StructuredBuffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\SwapChain.h" />
-    <ClInclude Include="Libraries\LibHeaders\Texture.h" />
-    <ClInclude Include="Libraries\LibHeaders\ThreadSafeQueue.h" />
-    <ClInclude Include="Libraries\LibHeaders\UnorderedAccessView.h" />
-    <ClInclude Include="Libraries\LibHeaders\UploadBuffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\VertexBuffer.h" />
-    <ClInclude Include="Libraries\LibHeaders\VertexTypes.h" />
-    <ClInclude Include="Libraries\LibHeaders\Visitor.h" />
-    <ClInclude Include="Libraries\LibHeaders\Window.h" />
-    <ClInclude Include="Source\Events.h" />
-    <ClInclude Include="Source\Helpers.h" />
-    <ClInclude Include="Source\HighResolutionClock.h" />
-    <ClInclude Include="Source\KeyCodes.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Resources\Shaders\DefaultPixel.hlsl">
@@ -219,18 +125,5 @@
     <FxCompile Include="Resources\Shaders\DefaultVertex.hlsl">
       <Filter>Resources</Filter>
     </FxCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="Libraries\LibHeaders\DirectXTex.inl" />
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="Libraries\LibHeaders\d3d12.idl" />
-    <Midl Include="Libraries\LibHeaders\d3d12compatibility.idl" />
-    <Midl Include="Libraries\LibHeaders\d3d12sdklayers.idl" />
-    <Midl Include="Libraries\LibHeaders\d3d12video.idl" />
-    <Midl Include="Libraries\LibHeaders\d3dcommon.idl" />
-    <Midl Include="Libraries\LibHeaders\dxgicommon.idl" />
-    <Midl Include="Libraries\LibHeaders\dxgiformat.idl" />
   </ItemGroup>
 </Project>

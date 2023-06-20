@@ -15,7 +15,7 @@ ConstantBufferView::ConstantBufferView( Device& device, const std::shared_ptr<Co
 
     auto d3d12Device   = m_Device.GetD3D12Device();
     auto d3d12Resource = m_ConstantBuffer->GetD3D12Resource();
-
+    
     D3D12_CONSTANT_BUFFER_VIEW_DESC cbv;
     cbv.BufferLocation = d3d12Resource->GetGPUVirtualAddress() + offset;
     cbv.SizeInBytes =

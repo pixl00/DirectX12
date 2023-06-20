@@ -1,330 +1,4 @@
-﻿  64 bit Processing Libraries\LibHeaders\d3d12.idl
-  d3d12.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\dxgicommon.idl
-  dxgicommon.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\dxgiformat.idl
-  dxgiformat.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3dcommon.idl
-  d3dcommon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.acf
-  ocidl.acf
-  64 bit Processing Libraries\LibHeaders\d3d12compatibility.idl
-  d3d12compatibility.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d3d11on12.idl
-  d3d11on12.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d3d11.idl
-  d3d11.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\dxgi.idl
-  dxgi.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\dxgicommon.idl
-  dxgicommon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\dxgitype.idl
-  dxgitype.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\dxgiformat.idl
-  dxgiformat.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3dcommon.idl
-  d3dcommon.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3d12.idl
-  d3d12.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.acf
-  ocidl.acf
-  64 bit Processing Libraries\LibHeaders\d3d12sdklayers.idl
-  d3d12sdklayers.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3d12.idl
-  d3d12.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\dxgicommon.idl
-  dxgicommon.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\dxgiformat.idl
-  dxgiformat.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3dcommon.idl
-  d3dcommon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.acf
-  ocidl.acf
-  64 bit Processing Libraries\LibHeaders\d3d12video.idl
-  d3d12video.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\dxgicommon.idl
-  dxgicommon.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3d12.idl
-  d3d12.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\dxgiformat.idl
-  dxgiformat.idl
-  64 bit Processing C:\Users\Dennis\Documents\GitHub\DirectX12\/packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3dcommon.idl
-  d3dcommon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.acf
-  ocidl.acf
-  64 bit Processing Libraries\LibHeaders\d3dcommon.idl
-  d3dcommon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.acf
-  ocidl.acf
-  64 bit Processing Libraries\LibHeaders\dxgicommon.idl
-  dxgicommon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.idl
-  ocidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oleidl.idl
-  oleidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
-  objidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
-  unknwn.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
-  wtypes.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
-  wtypesbase.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
-  basetsd.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
-  guiddef.h
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
-  oaidl.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\servprov.idl
-  servprov.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\urlmon.idl
-  urlmon.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\msxml.idl
-  msxml.idl
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
-  oaidl.acf
-  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\ocidl.acf
-  ocidl.acf
-  64 bit Processing Libraries\LibHeaders\dxgiformat.idl
-  dxgiformat.idl
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Application.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\Application.cpp, Source\DirectXExtentions\Application.cpp.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of HighResolutionClock.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\HighResolutionClock.cpp, Source\DirectXExtentions\HighResolutionClock.cpp, Source\HighResolutionClock.cpp.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of RootSignature.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\RootSignature.cpp, Source\RootSignature.cpp.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of UploadBuffer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\UploadBuffer.cpp, Source\UploadBuffer.cpp.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: Two or more files with the name of Window.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Libraries\LibHeaders\Window.cpp, Source\DirectXExtentions\Window.cpp.
-  Adapter.cpp
-  Application.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(294): error C2248: 'dx12lib::CommandQueue::~CommandQueue': cannot access protected member declared in class 'dx12lib::CommandQueue'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(99,1): message : compiler has generated 'dx12lib::CommandQueue::~CommandQueue' here
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(48,7): message : see declaration of 'dx12lib::CommandQueue'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2110,9): message : see reference to function template instantiation 'void std::_Destroy_in_place<_Ty>(_Ty &) noexcept' being compiled
-          with
-          [
-              _Ty=dx12lib::CommandQueue
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2109,10): message : while compiling class template member function 'void std::_Ref_count_obj2<dx12lib::CommandQueue>::_Destroy(void) noexcept'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2764): message : see reference to class template instantiation 'std::_Ref_count_obj2<dx12lib::CommandQueue>' being compiled
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Application.cpp(75,37): message : see reference to function template instantiation 'std::shared_ptr<dx12lib::CommandQueue> std::make_shared<dx12lib::CommandQueue,Microsoft::WRL::ComPtr<ID3D12Device2>&,D3D12_COMMAND_LIST_TYPE>(Microsoft::WRL::ComPtr<ID3D12Device2> &,D3D12_COMMAND_LIST_TYPE &&)' being compiled
-  Buffer.cpp
-  ByteAddressBuffer.cpp
-  ConstantBuffer.cpp
-  ConstantBufferView.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\ConstantBufferView.cpp(22,9): error C2653: 'Math': is not a class or namespace name
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\ConstantBufferView.cpp(22,15): error C3861: 'AlignUp': identifier not found
-  Device.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,50): warning C4099: 'std::default_delete<dx12lib::CommandList>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,23): message : see declaration of 'std::default_delete<dx12lib::CommandList>'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\DescriptorAllocator.h(73,58): warning C4099: 'std::default_delete<dx12lib::DescriptorAllocator>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\DescriptorAllocator.h(73,23): message : see declaration of 'std::default_delete<dx12lib::DescriptorAllocator>'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\GUI.h(33,10): fatal  error C1083: Cannot open include file: 'imgui.h': No such file or directory
-  GenerateMipsPSO.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\RootSignature.h(64,52): warning C4099: 'std::default_delete<dx12lib::RootSignature>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\RootSignature.h(64,23): message : see declaration of 'std::default_delete<dx12lib::RootSignature>'
-  GUI.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\GUI.h(33,10): fatal  error C1083: Cannot open include file: 'imgui.h': No such file or directory
-  HighResolutionClock.cpp
-  IndexBuffer.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\IndexBuffer.cpp(32,21): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
-  Material.cpp
-  Mesh.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,50): warning C4099: 'std::default_delete<dx12lib::CommandList>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,23): message : see declaration of 'std::default_delete<dx12lib::CommandList>'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Mesh.cpp(5,10): fatal  error C1083: Cannot open include file: 'Mesh.h': No such file or directory
-  PanoToCubemapPSO.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\RootSignature.h(64,52): warning C4099: 'std::default_delete<dx12lib::RootSignature>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\RootSignature.h(64,23): message : see declaration of 'std::default_delete<dx12lib::RootSignature>'
-  PipelineStateObject.cpp
-  RenderTarget.cpp
-  Resource.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Resource.cpp(20,9): error C2102: '&' requires l-value
-  ResourceStateTracker.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,50): warning C4099: 'std::default_delete<dx12lib::CommandList>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,23): message : see declaration of 'std::default_delete<dx12lib::CommandList>'
-  RootSignature.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\RootSignature.h(64,52): warning C4099: 'std::default_delete<dx12lib::RootSignature>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\RootSignature.h(64,23): message : see declaration of 'std::default_delete<dx12lib::RootSignature>'
-  Scene.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Scene.cpp(3,10): fatal  error C1083: Cannot open include file: 'Scene.h': No such file or directory
-  SceneNode.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\SceneNode.cpp(3,10): fatal  error C1083: Cannot open include file: 'Mesh.h': No such file or directory
-  ShaderResourceView.cpp
-  StructuredBuffer.cpp
-  SwapChain.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\SwapChain.h(36,10): fatal  error C1083: Cannot open include file: 'dx12lib/RenderTarget.h': No such file or directory
-  Texture.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Texture.cpp(41,13): error C2102: '&' requires l-value
-  UnorderedAccessView.cpp
-  UploadBuffer.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(9,15): error C2511: 'UploadBuffer::UploadBuffer(dx12lib::Device &,size_t)': overloaded member function not found in 'UploadBuffer'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.h(12,7): message : see declaration of 'UploadBuffer'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(12,1): error C2550: 'UploadBuffer::{ctor}': constructor initializer lists are only allowed on constructor definitions
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(14,16): error C2600: 'UploadBuffer::~UploadBuffer': cannot define a compiler-generated special member function (must be declared in the class first)
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(44,40): error C2065: 'm_Device': undeclared identifier
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(64,21): error C2511: 'UploadBuffer::Page::Page(dx12lib::Device &,size_t)': overloaded member function not found in 'UploadBuffer::Page'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.h(40,12): message : see declaration of 'UploadBuffer::Page'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(70,1): error C2550: 'UploadBuffer::Page::{ctor}': constructor initializer lists are only allowed on constructor definitions
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(71,24): error C2065: 'm_Device': undeclared identifier
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(73,31): error C3536: 'd3d12Device': cannot be used before it is initialized
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(75,41): error C2597: illegal reference to non-static member 'UploadBuffer::Page::m_PageSize'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.h(67,16): message : see declaration of 'UploadBuffer::Page::m_PageSize'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(76,9): error C2597: illegal reference to non-static member 'UploadBuffer::Page::m_d3d12Resource'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.h(60,48): message : see declaration of 'UploadBuffer::Page::m_d3d12Resource'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(76,9): error C2672: 'IID_PPV_ARGS_Helper': no matching overloaded function found
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt\wrl\client.h(913,8): message : could be 'void **IID_PPV_ARGS_Helper(Microsoft::WRL::Details::ComPtrRef<T>) noexcept'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(76,9): message : 'void **IID_PPV_ARGS_Helper(Microsoft::WRL::Details::ComPtrRef<T>) noexcept': could not deduce template argument for 'Microsoft::WRL::Details::ComPtrRef<T>' from 'Microsoft::WRL::ComPtr<ID3D12Resource> UploadBuffer::Page::* '
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\combaseapi.h(201,84): message : or       'void **IID_PPV_ARGS_Helper(T **)'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(76,9): message : 'void **IID_PPV_ARGS_Helper(T **)': could not deduce template argument for 'T **' from 'Microsoft::WRL::ComPtr<ID3D12Resource> UploadBuffer::Page::* '
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(81,40): error C2597: illegal reference to non-static member 'UploadBuffer::Page::m_CPUPtr'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.h(63,15): message : see declaration of 'UploadBuffer::Page::m_CPUPtr'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(93,28): error C2653: 'Math': is not a class or namespace name
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(93,34): error C3861: 'AlignUp': identifier not found
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(94,28): error C2653: 'Math': is not a class or namespace name
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(94,34): error C3861: 'AlignUp': identifier not found
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(107,26): error C2653: 'Math': is not a class or namespace name
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(107,32): error C3861: 'AlignUp': identifier not found
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(108,26): error C2653: 'Math': is not a class or namespace name
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.cpp(108,32): error C3861: 'AlignUp': identifier not found
-  VertexBuffer.cpp
-  VertexTypes.cpp
-  Window.cpp
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
-C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
-  CommandList.cpp
+﻿  CommandList.cpp
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,50): warning C4099: 'std::default_delete<dx12lib::CommandList>': type name first seen using 'struct' now seen using 'class'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandList.h(527,23): message : see declaration of 'std::default_delete<dx12lib::CommandList>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
@@ -368,22 +42,100 @@ C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\DynamicDescrip
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\DynamicDescriptorHeap.h(12,7): message : see declaration of 'RootSignature'
   Engine.cpp
   Game.cpp
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\KeyCodes.h(7,5): error C2011: 'KeyCode::Key': 'enum' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\KeyCodes.h(6,10): message : see declaration of 'KeyCode::Key'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(6,1): error C2011: 'EventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(5,7): message : see declaration of 'EventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(13,20): error C2011: 'KeyEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(13,7): message : see declaration of 'KeyEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(40,28): error C2011: 'MouseMotionEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(40,7): message : see declaration of 'MouseMotionEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(67,28): error C2011: 'MouseButtonEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(67,7): message : see declaration of 'MouseButtonEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(108,26): error C2011: 'MouseWheelEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(108,7): message : see declaration of 'MouseWheelEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(135,23): error C2011: 'ResizeEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(151,23): error C2011: 'UpdateEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(151,7): message : see declaration of 'UpdateEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(164,23): error C2011: 'RenderEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(164,7): message : see declaration of 'RenderEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(177,21): error C2011: 'UserEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(177,7): message : see declaration of 'UserEventArgs'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
-  HighResolutionClock.cpp
   pch.cpp
   main.cpp
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\KeyCodes.h(7,5): error C2011: 'KeyCode::Key': 'enum' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\KeyCodes.h(6,10): message : see declaration of 'KeyCode::Key'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(6,1): error C2011: 'EventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(5,7): message : see declaration of 'EventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(13,20): error C2011: 'KeyEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(13,7): message : see declaration of 'KeyEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(40,28): error C2011: 'MouseMotionEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(40,7): message : see declaration of 'MouseMotionEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(67,28): error C2011: 'MouseButtonEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(67,7): message : see declaration of 'MouseButtonEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(108,26): error C2011: 'MouseWheelEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(108,7): message : see declaration of 'MouseWheelEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(135,23): error C2011: 'ResizeEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(151,23): error C2011: 'UpdateEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(151,7): message : see declaration of 'UpdateEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(164,23): error C2011: 'RenderEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(164,7): message : see declaration of 'RenderEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(177,21): error C2011: 'UserEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(177,7): message : see declaration of 'UserEventArgs'
   RootSignature.cpp
 c1xx : fatal  error C1083: Cannot open source file: 'Source\RootSignature.cpp': No such file or directory
   Tutorial2.cpp
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\KeyCodes.h(7,5): error C2011: 'KeyCode::Key': 'enum' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\KeyCodes.h(6,10): message : see declaration of 'KeyCode::Key'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(6,1): error C2011: 'EventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(5,7): message : see declaration of 'EventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(13,20): error C2011: 'KeyEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(13,7): message : see declaration of 'KeyEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(40,28): error C2011: 'MouseMotionEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(40,7): message : see declaration of 'MouseMotionEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(67,28): error C2011: 'MouseButtonEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(67,7): message : see declaration of 'MouseButtonEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(108,26): error C2011: 'MouseWheelEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(108,7): message : see declaration of 'MouseWheelEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(135,23): error C2011: 'ResizeEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(151,23): error C2011: 'UpdateEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(151,7): message : see declaration of 'UpdateEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(164,23): error C2011: 'RenderEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(164,7): message : see declaration of 'RenderEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Events.h(177,21): error C2011: 'UserEventArgs': 'class' type redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(177,7): message : see declaration of 'UserEventArgs'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(108,39): error C2039: 'Get': is not a member of 'std::shared_ptr<dx12lib::CommandList>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(52,10): message : see declaration of 'std::shared_ptr<dx12lib::CommandList>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(119,39): error C2039: 'Get': is not a member of 'std::shared_ptr<dx12lib::CommandList>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(52,10): message : see declaration of 'std::shared_ptr<dx12lib::CommandList>'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(268): error C2027: use of undefined type 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(273,33): error C2027: use of undefined type 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(273,62): error C2027: use of undefined type 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(272,38): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'CD3DX12_VIEWPORT'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(272,38): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(275,29): error C2027: use of undefined type 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(275,38): error C2027: use of undefined type 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(135,7): message : see declaration of 'ResizeEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(275,9): error C2660: 'Tutorial2::ResizeDepthBuffer': function does not take 1 arguments
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(225,17): message : see declaration of 'Tutorial2::ResizeDepthBuffer'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(275,9): message : while trying to match the argument list '()'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(286,19): error C2027: use of undefined type 'UpdateEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(151,7): message : see declaration of 'UpdateEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(301,39): error C2027: use of undefined type 'UpdateEventArgs'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\Events.h(151,7): message : see declaration of 'UpdateEventArgs'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(354,9): error C2664: 'void Tutorial2::TransitionResource(Microsoft::WRL::ComPtr<ID3D12GraphicsCommandList2>,Microsoft::WRL::ComPtr<ID3D12Resource>,D3D12_RESOURCE_STATES,D3D12_RESOURCE_STATES)': cannot convert argument 1 from 'std::shared_ptr<dx12lib::CommandList>' to 'Microsoft::WRL::ComPtr<ID3D12GraphicsCommandList2>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(354,29): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(317,17): message : see declaration of 'Tutorial2::TransitionResource'
@@ -441,5 +193,158 @@ C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(317,17): message : see declaration of 'Tutorial2::TransitionResource'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\Tutorial2.cpp(380,9): message : while trying to match the argument list '(std::shared_ptr<dx12lib::CommandList>, Microsoft::WRL::ComPtr<ID3D12Resource>, D3D12_RESOURCE_STATES, D3D12_RESOURCE_STATES)'
   UploadBuffer.cpp
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.h(80,51): warning C4099: 'std::default_delete<dx12lib::UploadBuffer>': type name first seen using 'struct' now seen using 'class'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Libraries\LibHeaders\UploadBuffer.h(80,23): message : see declaration of 'std::default_delete<dx12lib::UploadBuffer>'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,51): warning C4099: 'std::default_delete<dx12lib::CommandQueue>': type name first seen using 'struct' now seen using 'class'
 C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\CommandQueue.h(70,23): message : see declaration of 'std::default_delete<dx12lib::CommandQueue>'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(14,1): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(15,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(16,1): error C2550: 'UploadBuffer': constructor initializer lists are only allowed on constructor definitions
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(16,2): warning C4508: 'UploadBuffer': function should return a value; 'void' return type assumed
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(18,1): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(18,26): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(18,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(18,40): error C2146: syntax error: missing ';' before identifier 'Allocate'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(19,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(19,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(35,17): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(35,31): error C2065: 'Page': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(35,6): error C2923: 'std::shared_ptr': 'Page' is not a valid template type argument for parameter '_Ty'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(35,31): message : see declaration of 'Page'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(35,37): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(36,1): error C2955: 'std::shared_ptr': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1555,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(35,51): error C2079: 'RequestPage' uses undefined class 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,21): error C2065: 'Page': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,10): error C2923: 'std::shared_ptr': 'Page' is not a valid template type argument for parameter '_Ty'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,21): message : see declaration of 'Page'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2641: cannot deduce template arguments for 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::weak_ptr<_Ty>)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1865,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::unique_ptr<_Ty,_Dx>)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1868,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1663,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::weak_ptr<_Uty> &)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1644,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty0> &&) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1639,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty> &&) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1634,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::shared_ptr<_Ty0> &) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1629,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::shared_ptr<_Ty> &) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1624,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty0> &&,remove_extent<_Ty>::type *) noexcept': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1619,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::shared_ptr<_Ty0> &,remove_extent<_Ty>::type *) noexcept': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1613,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::nullptr_t,_Dx,_Alloc)': expects 3 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1608,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::nullptr_t,_Dx)': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1602,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(_Ux *,_Dx,_Alloc)': expects 3 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1596,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(_Ux *,_Dx)': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1588,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(_Ux *)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1574,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::nullptr_t) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1568,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2783: 'std::shared_ptr<_Ty> std::shared_ptr(void) noexcept': could not deduce template argument for '_Ty'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1566,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(37,27): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty>)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1555,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(39,10): error C2065: 'm_AvailablePages': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(41,16): error C2065: 'm_AvailablePages': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(42,9): error C2065: 'm_AvailablePages': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(46,33): error C2065: 'Page': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(46,40): error C2065: 'm_PageSize': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(47,9): error C2065: 'm_PagePool': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(53,6): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(55,5): error C2065: 'm_CurrentPage': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(57,5): error C2065: 'm_AvailablePages': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(57,24): error C2065: 'm_PagePool': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,39): error C2065: 'm_AvailablePages': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,26): error C2065: 'Page': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,15): error C2923: 'std::shared_ptr': 'Page' is not a valid template type argument for parameter '_Ty'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,26): message : see declaration of 'Page'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2641: cannot deduce template arguments for 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::weak_ptr<_Ty>)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1865,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::unique_ptr<_Ty,_Dx>)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1868,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1663,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::weak_ptr<_Uty> &)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1644,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty0> &&) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1639,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty> &&) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1634,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::shared_ptr<_Ty0> &) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1629,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::shared_ptr<_Ty> &) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1624,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty0> &&,remove_extent<_Ty>::type *) noexcept': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1619,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(const std::shared_ptr<_Ty0> &,remove_extent<_Ty>::type *) noexcept': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1613,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::nullptr_t,_Dx,_Alloc)': expects 3 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1608,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::nullptr_t,_Dx)': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1602,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(_Ux *,_Dx,_Alloc)': expects 3 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1596,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(_Ux *,_Dx)': expects 2 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1588,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(_Ux *)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1574,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::nullptr_t) noexcept': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1568,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2783: 'std::shared_ptr<_Ty> std::shared_ptr(void) noexcept': could not deduce template argument for '_Ty'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1566,5): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,5): error C2780: 'std::shared_ptr<_Ty> std::shared_ptr(std::shared_ptr<_Ty>)': expects 1 arguments - 0 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1555,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,37): error C2143: syntax error: missing ';' before ':'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(59,56): error C2143: syntax error: missing ';' before ')'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(62,9): error C2675: unary '->': 'std::shared_ptr' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1762,22): message : could be '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(62,13): message : '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const': could not deduce template argument for '__formal'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(62,15): error C2039: 'Reset': is not a member of 'std::shared_ptr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(1555,1): message : see declaration of 'std::shared_ptr'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(66,1): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(67,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(71,1): error C2550: 'Page': constructor initializer lists are only allowed on constructor definitions
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(74,73): error C2065: 'm_PageSize': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(81,9): error C2065: 'm_d3d12Resource': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(75,30): error C2660: 'ID3D12Device::CreateCommittedResource': function does not take 5 arguments
+C:\Users\Dennis\Documents\GitHub\DirectX12\packages\Microsoft.Direct3D.D3D12.1.610.3\build\native\include\d3d12.h(8921,43): message : see declaration of 'ID3D12Device::CreateCommittedResource'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(75,30): message : while trying to match the argument list '(CD3DX12_HEAP_PROPERTIES *, D3D12_HEAP_FLAGS, CD3DX12_RESOURCE_DESC *, D3D12_RESOURCE_STATES, nullptr)'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(84,5): error C2065: 'm_GPUPtr': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(84,16): error C2065: 'm_d3d12Resource': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(85,5): error C2065: 'm_d3d12Resource': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(85,40): error C2065: 'm_CPUPtr': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(86,1): warning C4508: 'Page': function should return a value; 'void' return type assumed
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(88,1): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(89,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(90,5): error C2065: 'm_d3d12Resource': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(91,5): error C2065: 'm_CPUPtr': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(92,5): error C2065: 'm_GPUPtr': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(93,1): warning C4508: '{dtor}': function should return a value; 'void' return type assumed
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(95,6): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(96,1): error C2270: 'HasSpace': modifiers not allowed on nonmember functions
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(101,41): error C2065: 'm_Offset': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(104,43): error C2065: 'm_PageSize': undeclared identifier
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(107,1): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(107,26): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(107,54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(107,15): error C2086: 'int Allocation': redefinition
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(18,15): message : see declaration of 'Allocation'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(107,46): error C2146: syntax error: missing ';' before identifier 'Allocate'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(108,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(108,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(129,6): error C2653: 'UploadBuffer': is not a class or namespace name
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(129,26): error C2084: function 'void Reset(void)' already has a body
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(53,20): message : see previous definition of 'Reset'
+C:\Users\Dennis\Documents\GitHub\DirectX12\DirectX12Engine\Source\UploadBuffer.cpp(130,1): fatal  error C1003: error count exceeds 100; stopping compilation
